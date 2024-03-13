@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		162904702BA1EA43004B742F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1629046F2BA1EA43004B742F /* ViewModel.swift */; };
+		162904702BA1EA43004B742F /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1629046F2BA1EA43004B742F /* ContentViewModel.swift */; };
 		162904722BA1ED42004B742F /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162904712BA1ED42004B742F /* ImageView.swift */; };
 		162904742BA1EFCB004B742F /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162904732BA1EFCB004B742F /* CustomButton.swift */; };
 		162904762BA1F38B004B742F /* DetailImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162904752BA1F38B004B742F /* DetailImageView.swift */; };
@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1629046F2BA1EA43004B742F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		1629046F2BA1EA43004B742F /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		162904712BA1ED42004B742F /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		162904732BA1EFCB004B742F /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		162904752BA1F38B004B742F /* DetailImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailImageView.swift; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 		1629046D2BA1EA28004B742F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				1629046F2BA1EA43004B742F /* ViewModel.swift */,
+				1629046F2BA1EA43004B742F /* ContentViewModel.swift */,
 				162904772BA1F464004B742F /* DetailViewModel.swift */,
 			);
 			path = ViewModel;
@@ -184,7 +184,7 @@
 				162904782BA1F464004B742F /* DetailViewModel.swift in Sources */,
 				1629047B2BA1F508004B742F /* CircleXmarkButton.swift in Sources */,
 				16F2E8522B97D33100333570 /* Sandstorm_TestApp.swift in Sources */,
-				162904702BA1EA43004B742F /* ViewModel.swift in Sources */,
+				162904702BA1EA43004B742F /* ContentViewModel.swift in Sources */,
 				162904742BA1EFCB004B742F /* CustomButton.swift in Sources */,
 				162904762BA1F38B004B742F /* DetailImageView.swift in Sources */,
 			);
