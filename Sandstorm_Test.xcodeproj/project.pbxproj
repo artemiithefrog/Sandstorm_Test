@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		162904702BA1EA43004B742F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1629046F2BA1EA43004B742F /* ViewModel.swift */; };
+		162904722BA1ED42004B742F /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162904712BA1ED42004B742F /* ImageView.swift */; };
+		162904742BA1EFCB004B742F /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162904732BA1EFCB004B742F /* CustomButton.swift */; };
+		162904762BA1F38B004B742F /* DetailImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162904752BA1F38B004B742F /* DetailImageView.swift */; };
+		162904782BA1F464004B742F /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162904772BA1F464004B742F /* DetailViewModel.swift */; };
+		1629047B2BA1F508004B742F /* CircleXmarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1629047A2BA1F508004B742F /* CircleXmarkButton.swift */; };
 		16F2E8522B97D33100333570 /* Sandstorm_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F2E8512B97D33100333570 /* Sandstorm_TestApp.swift */; };
 		16F2E8542B97D33100333570 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F2E8532B97D33100333570 /* ContentView.swift */; };
 		16F2E8562B97D33300333570 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F2E8552B97D33300333570 /* Assets.xcassets */; };
@@ -14,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1629046F2BA1EA43004B742F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		162904712BA1ED42004B742F /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		162904732BA1EFCB004B742F /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		162904752BA1F38B004B742F /* DetailImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailImageView.swift; sourceTree = "<group>"; };
+		162904772BA1F464004B742F /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		1629047A2BA1F508004B742F /* CircleXmarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleXmarkButton.swift; sourceTree = "<group>"; };
 		16F2E84E2B97D33100333570 /* Sandstorm_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sandstorm_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F2E8512B97D33100333570 /* Sandstorm_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sandstorm_TestApp.swift; sourceTree = "<group>"; };
 		16F2E8532B97D33100333570 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +44,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1629046D2BA1EA28004B742F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1629046F2BA1EA43004B742F /* ViewModel.swift */,
+				162904772BA1F464004B742F /* DetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		162904792BA1F4F3004B742F /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				162904732BA1EFCB004B742F /* CustomButton.swift */,
+				1629047A2BA1F508004B742F /* CircleXmarkButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
 		16F2E8452B97D33100333570 = {
 			isa = PBXGroup;
 			children = (
@@ -52,9 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				16F2E8512B97D33100333570 /* Sandstorm_TestApp.swift */,
-				16F2E8612B97D35B00333570 /* ViewModel */,
-				16F2E8602B97D35700333570 /* Model */,
-				16F2E85F2B97D35300333570 /* View */,
+				1629046D2BA1EA28004B742F /* ViewModel */,
+				16F2E85F2B97D35300333570 /* Views */,
 				16F2E8552B97D33300333570 /* Assets.xcassets */,
 				16F2E8572B97D33300333570 /* Preview Content */,
 			);
@@ -69,26 +98,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		16F2E85F2B97D35300333570 /* View */ = {
+		16F2E85F2B97D35300333570 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				16F2E8532B97D33100333570 /* ContentView.swift */,
+				162904712BA1ED42004B742F /* ImageView.swift */,
+				162904752BA1F38B004B742F /* DetailImageView.swift */,
+				162904792BA1F4F3004B742F /* Buttons */,
 			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		16F2E8602B97D35700333570 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		16F2E8612B97D35B00333570 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,8 +179,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				162904722BA1ED42004B742F /* ImageView.swift in Sources */,
 				16F2E8542B97D33100333570 /* ContentView.swift in Sources */,
+				162904782BA1F464004B742F /* DetailViewModel.swift in Sources */,
+				1629047B2BA1F508004B742F /* CircleXmarkButton.swift in Sources */,
 				16F2E8522B97D33100333570 /* Sandstorm_TestApp.swift in Sources */,
+				162904702BA1EA43004B742F /* ViewModel.swift in Sources */,
+				162904742BA1EFCB004B742F /* CustomButton.swift in Sources */,
+				162904762BA1F38B004B742F /* DetailImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
