@@ -10,11 +10,7 @@ import SwiftUI
 class DetailViewModel: ObservableObject {
     
     @Binding var isPresented: Bool
-    
-    var view: DetailImageView {
-        DetailImageView(viewModel: self)
-    }
-    
+
     init(isPresented: Binding<Bool>) {
         _isPresented = isPresented
     }

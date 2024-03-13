@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct DetailImageView: View {
-    @StateObject var viewModel: DetailViewModel
+    @Binding var isPresented: Bool
     
     var body: some View {
         GeometryReader { geometry in
@@ -18,7 +18,7 @@ struct DetailImageView: View {
         .overlay(alignment: .topTrailing) {
             CircleXmarkButton {
                 withAnimation(.easeInOut) {
-                    viewModel.isPresented.toggle()
+                    isPresented.toggle()
                 }
             }
         }

@@ -41,11 +41,12 @@ struct ContentView: View {
         }
         .overlay {
             if viewModel.isDetailViewPresented {
-                DetailViewModel(isPresented: $viewModel.isDetailViewPresented).view
+                DetailImageView(isPresented: $viewModel.isDetailViewPresented)
             }
         }
     }
 }
+
 
 #Preview {
     ContentView()
